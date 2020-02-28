@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand"href="#">
+   <i><font face = "Comic sans MS" size =" 5">Hiavent Innovation</font><br /> </i>
+  </a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="mynav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about">About Us</a>
+      </li>
+     <!-- <li class="nav-item">
+        <a class="nav-link" routerLink="/dashboard">Our Services</a>
+      </li>-->
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/our_services">Our Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/our_tools">Our Tools</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact_us">Contact US</a>
+      </li>
+      
+      <!--<li class="nav-item dropdown">
+        <li class="nav-item">
+        <a class="nav-link" routerLink="/our_tools">Our Tools</a>
+      </li>
+    </ul>
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Ideas</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Environment</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+      -->
+    </ul>
+    <form class="form-inline my-2 my-lg-0" >
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="search"><i class="fa fa-search"></i></span>
+        </div>
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button class="btn btn-warning my2- my-sm-0" type="button">Search</button>
+
+    </form>
+  </div>
+  
+</nav>
+
+
+<!-- <div class="container-fluid">
+
+  <h1>Welcome</h1>
+</div>  -->
+<div><router-outlet></router-outlet></div>
